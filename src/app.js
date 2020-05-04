@@ -35,7 +35,7 @@ app.get('/help', (req, res) => {
 		title: 'Help Page',
 	});
 });
-
+// weather route
 app.get('/weather', (req, res) => {
 	if (!req.query.address) {
 		return res.send({
